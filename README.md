@@ -1,8 +1,9 @@
 # GDHSXY
-广东财经大学华商学院WiFi认证小工具-Windows GUI
+广东财经大学华商学院WiFi认证小工具，可自动获取IP/SSID等
+基于Python3.8 tkinter的Windows GUI小工具，界面丑
 
 # 环境依赖
-基于Python3.8
+Python3.8
 requests、re、time、ping3、pytesseract
 PIL (easy_install Pillow)
 
@@ -16,18 +17,10 @@ pip install requests
 修改Login_in.py文件中对应校园网登录信息的变量的值：
 
 #=========请修改以下校园网登陆信息==========
-#1.校园网账号：
-id = '1825010xxxx'
-#2.校园网密码：
+1.校园网账号：
+id = 'xxxxxxx'
+2.校园网密码：
 password = '123456789'
-#3.校园网ip地址：
-wlan_user_ip = '172.27.xxx.xx'
-#4.设备mac地址：
-mac = 'A8-xx-xx-xx-xx-xx'
-#======================================
-为获取设备mac地址与宿舍墙上端口所分配的ip地址，可ssh连接路由器后使用以下命令：
-
-ifconfig 
 
 # 添加周期性任务（定时任务）
 cron命令可以周期性地执行任务，使用前先确定crond进程是否启动，可通过以下命令查看：
