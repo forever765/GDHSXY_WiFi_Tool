@@ -1,5 +1,5 @@
-# GDHSXY
-广东财经大学华商学院WiFi认证小工具，可自动获取IP/SSID等
+# GDHSXY_WiFi_Tool
+广东财经大学华商学院WiFi认证小工具，可自动获取IP/SSID，自动进行WiFi认证
 基于Python3.8 tkinter的Windows GUI小工具，界面丑
 
 # 环境依赖
@@ -25,9 +25,10 @@ pyinstaller WiFi_Tool.py --hidden-import IntVar --hidden-import StringVar --hidd
 WiFi_Tool.py文件中对应校园网登录信息的变量的值：
 
 #=========请修改以下校园网登陆信息==========
-1.校园网账号：
+1. 校园网账号：
 self.username = 'xxxxxxx'
-2.校园网密码：
+
+2. 校园网密码：
 self.password = '123456789'
 
 
