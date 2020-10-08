@@ -3,14 +3,17 @@
 基于Python3.8 tkinter的Windows GUI小工具，界面丑
 
 # 环境依赖
-Python3.8
-requests、re、time、ping3、pytesseract
-PIL (easy_install Pillow)
+1、Python3.8
+2、requests、re、time、ping3、pytesseract、PIL (easy_install Pillow)
 
 * Python安装第三方库的方法：
 使用pip命令进行安装，以安装requests库为例：
 
 pip install requests
+
+3、验证码识别插件tesseract
+下载地址：https://digi.bib.uni-mannheim.de/tesseract/
+安装最新的x64版本到D:\Tesseract-OCR
 
 # 可编译为exe使用
 1. 先安装pyinstaller
