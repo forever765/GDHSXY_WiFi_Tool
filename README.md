@@ -2,8 +2,10 @@
 广东财经大学华商学院WiFi认证小工具，可自动获取IP/SSID，自动进行WiFi认证
 基于Python3.8 tkinter的Windows GUI小工具，界面丑
 
+
 # 环境依赖
 1、Python3.8
+
 2、requests、re、time、ping3、pytesseract、PIL (easy_install Pillow)
 
 * Python安装第三方库的方法：
@@ -14,6 +16,7 @@ pip install requests
 3、验证码识别插件tesseract
 下载地址：https://digi.bib.uni-mannheim.de/tesseract/
 安装最新的x64版本到D:\Tesseract-OCR
+
 
 # 可编译为exe使用
 1. 先安装pyinstaller
