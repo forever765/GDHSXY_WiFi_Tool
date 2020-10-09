@@ -13,7 +13,7 @@
 
 pip install requests
 
-3、验证码识别插件tesseract
+3、验证码识别插件tesseract（如tesseract-ocr-w64-setup-v5.0.0.20190623.exe）
 下载地址：https://digi.bib.uni-mannheim.de/tesseract/
 安装最新的x64版本到D:\Tesseract-OCR
 
