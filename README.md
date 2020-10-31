@@ -2,6 +2,8 @@
 广东财经大学华商学院WiFi认证小工具，可自动获取当前IP和SSID，自动进行WiFi认证
 基于Python3.8 tkinter的Windows GUI小工具，界面丑
 
+# 后续
+2020-10-29，电信禁止了web门户认证，强制要求使用天翼校园客户端登录，本工具登录接口已失效，如有自动认证需求，请移步至[esurfing_python3](https://github.com/forever765/esurfing_python3)
 
 # 环境依赖
 1、Python3.8
